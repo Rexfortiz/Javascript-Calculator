@@ -94,25 +94,25 @@ function App() {
             <div id="answer">{answer}</div>
             <div id="expression">{expression}</div>
           </div>
-          <button onClick={() => buttonPress("clear")} className='calcBtn' id="clear">C</button>
-          <button onClick={() => buttonPress("negative")} className='calcBtn' id="negative">+/-</button>
-          <button onClick={() => buttonPress("percentage")} className='calcBtn' id="percentage">%</button>
-          <button onClick={() => buttonPress("/")} className='calcBtn' id="divide">/</button>
-          <button onClick={() => buttonPress("7")} className='calcBtn' id="seven">7</button>
-          <button onClick={() => buttonPress("8")} className='calcBtn' id="eight">8</button>
-          <button onClick={() => buttonPress("9")} className='calcBtn' id="nine">9</button>
-          <button onClick={() => buttonPress("*")} className='calcBtn' id="multiply">X</button>
-          <button onClick={() => buttonPress("4")} className='calcBtn' id="four">4</button>
-          <button onClick={() => buttonPress("5")} className='calcBtn' id="five">5</button>
-          <button onClick={() => buttonPress("6")} className='calcBtn' id="six">6</button>
-          <button onClick={() => buttonPress("-")} className='calcBtn' id="subtract">-</button>
-          <button onClick={() => buttonPress("1")} className='calcBtn' id="one">1</button>
-          <button onClick={() => buttonPress("2")} className='calcBtn' id="two">2</button>
-          <button onClick={() => buttonPress("3")} className='calcBtn' id="three">3</button>
-          <button onClick={() => buttonPress("+")} className='calcBtn' id="add">+</button>
-          <button onClick={() => buttonPress("0")} className='calcBtn' id="zero">0</button>
-          <button onClick={() => buttonPress(".")} className='calcBtn' id="decimal">.</button>
-          <button onClick={() => buttonPress("=")} className='calcBtn' id="equals">=</button>
+          <button onClick={() => buttonPress("clear")} className='calcBtn light-gray' id="clear">C</button>
+          <button onClick={() => buttonPress("negative")} className='calcBtn light-gray' id="negative">+/-</button>
+          <button onClick={() => buttonPress("percentage")} className='calcBtn light-gray' id="percentage">%</button>
+          <button onClick={() => buttonPress("/")} className='calcBtn yellow' id="divide">/</button>
+          <button onClick={() => buttonPress("7")} className='calcBtn dark-gray' id="seven">7</button>
+          <button onClick={() => buttonPress("8")} className='calcBtn dark-gray' id="eight">8</button>
+          <button onClick={() => buttonPress("9")} className='calcBtn dark-gray' id="nine">9</button>
+          <button onClick={() => buttonPress("*")} className='calcBtn yellow' id="multiply">X</button>
+          <button onClick={() => buttonPress("4")} className='calcBtn dark-gray' id="four">4</button>
+          <button onClick={() => buttonPress("5")} className='calcBtn dark-gray' id="five">5</button>
+          <button onClick={() => buttonPress("6")} className='calcBtn dark-gray' id="six">6</button>
+          <button onClick={() => buttonPress("-")} className='calcBtn yellow' id="subtract">-</button>
+          <button onClick={() => buttonPress("1")} className='calcBtn dark-gray' id="one">1</button>
+          <button onClick={() => buttonPress("2")} className='calcBtn dark-gray' id="two">2</button>
+          <button onClick={() => buttonPress("3")} className='calcBtn dark-gray' id="three">3</button>
+          <button onClick={() => buttonPress("+")} className='calcBtn yellow' id="add">+</button>
+          <button onClick={() => buttonPress("0")} className='calcBtn dark-gray' id="zero">0</button>
+          <button onClick={() => buttonPress(".")} className='calcBtn dark-gray' id="decimal">.</button>
+          <button onClick={() => buttonPress("=")} className='calcBtn yellow' id="equals">=</button>
         </div>
       </div>
     </>

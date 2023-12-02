@@ -1,7 +1,14 @@
+:root{
+  --white: white;
+  --light-gray: #f0f0f0;
+  --dark-gray: #6c6c6c;
+  --black: #1e1e1e;
+  --yellow: #f99c14;
+}
+
 .container{
   text-align: center;
   border: 2px solid black;
-  
 }
 #calculator{
   margin: auto;
@@ -40,4 +47,15 @@
   grid-column-end: 3;
   width: 180px;
   border-radius: 80px;
+}
+
+.light-gray{
+  background-color: var(--light-gray);
+  color: var(--black);
+}
+.dark-gray{
+  background-color: var(--dark-gray);
+}
+.yellow{
+  background-color: var(--yellow);
 }
